@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* 자주쓰는 색을 변수로 --변수명 */
+:root {
+  --primary-color: #047aed;
+  --secondary-color: #1c3fa8;
+  --dark-color: #002240;
+  --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --error-color: #d9534f;
+}
+
+/* 각 태그들의 기본 마진/패딩을 초기값 0으로 하고 박스모델 기준을 보더-박스로 한다. */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
